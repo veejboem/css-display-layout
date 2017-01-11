@@ -1,17 +1,94 @@
 
+* {
+    font-family: arial, serif;
+}
+
 h1 {
-  font-family: serif;
+
   background-color: black;
   color: white;
   text-align: center;
-  margin: 30px;
+  margin: 30px 30px 0 30px;
 }
 
  section h1 {
+  box-sizing: inherit;
   font-size: 25px;
-  font-family: arial, serif;
   padding: 15px 0;
+}
 
+/*
+.links::before,
+.links::after {
+  padding: 2px 0;
+}
+*/
+
+.links {
+  /*box-sizing: inherit;
+  display: inline;*/
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 7px;
+
+
+}
+
+.links a{
+  box-sizing: inherit;
+  display: inline;
+  font-size: 16px;
+  padding: 7px 2px;
+  background-color: lightgrey;
+  color: white;
+  text-decoration: none;
+
+}
+
+h3 {
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+  margin: 20px 50px;
+  text-align: left;
+
+
+}
+img {
+
+  width: 200px;
+  height: 300px;
+
+}
+ul {
+  padding: 10px;
+  margin: 20px 50px;
+  text-align: left;
+}
+/*
+.image2 {
+  padding: 10px;
+  margin: 20px 50px;
+  text-align: left;
+}
+*/
+
+li {
+  background-color: yellow;
+  padding: 5px 30px;
+  display: inline;
+  box-sizing: content-box;
+}
+
+.buttons1 {
+/*boxmargin: 10px 50px;*/
+/*box-sizing: content-box;*/
+}
+
+.buttons2 {
+  /*margin: 10px 50px;*/
+  /*box-sizing: content-box;*/
 }
 
 footer h1 {
